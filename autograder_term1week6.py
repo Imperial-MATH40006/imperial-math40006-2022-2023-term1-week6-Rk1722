@@ -1,4 +1,5 @@
-import numpy.testing as npt
+#import numpy 
+#import numpy.testing as npt
 import csv
 usernamefile = open('usernames.csv', 'r')
 usernames = list(csv.reader(usernamefile))[0]
